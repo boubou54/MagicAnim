@@ -119,7 +119,7 @@ function magickAnim()
     
     function afterDelay(ids)
     {
-        clearTimeout(ids);
+        clearTimeout(multi.inter[ids]);
         multi.animes[ids].anim();
     };
   };

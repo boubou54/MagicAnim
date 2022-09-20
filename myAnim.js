@@ -19,7 +19,7 @@ function newAnim_single(refDisplay)
       var test = myAnim.getDisplay(myAnim.element);
       var retour = window.getComputedStyle(myAnim.element,null).getPropertyValue('display') != 'none'?'none': test;
       return retour;
-    }
+    };
     
     myAnim.set = function(element, animName, toggle, callback)
     {

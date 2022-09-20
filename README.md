@@ -19,7 +19,7 @@ I wrote it in pure javascript, so MagicAnim works with jquery as well. Then I ma
 I will put examples of use below to show the possibilities of MagicAnim. It can of course be improved as you wish :smiley:
 
 ## **Demo to see some possible possibilities with MagicAnim**
-[Demo MagicAnim](https://www.optimages.fr/MagicAnim/index.html)
+Some online tests: [Demo MagicAnim](https://www.optimages.fr/MagicAnim/index.html)
 
 ```js
 //Include the magicanim js file in your html then assign it classically like this. and include a CSS file with your animation classes in it

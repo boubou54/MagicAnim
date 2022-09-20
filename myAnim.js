@@ -197,6 +197,9 @@ var extendMultiple = function()
         case 'boolean':
           tab = ext.adapteParam(size, tab);
         break;
+        case 'number':
+          tab = ext.adapteParam(size, tab);
+        break;
         default:
           if(Array.isArray(Object.keys(tab)) == true && 'length' in tab)
           {

@@ -117,6 +117,7 @@ In your css file you just have to put the animations of your choice and create a
   }
 }
 
+//ClassName of animation
 .backInDown {
   -webkit-animation: 1s backInDown 1;
   animation: 1s backInDown 1;
